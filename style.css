@@ -1,0 +1,143 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100&display=swap");
+* {
+  width: 100%;
+  padding: 0;
+}
+body {
+  background: #252734;
+  font-family: "Poppins", sans-serif;
+  overflow-x: hidden;
+  color: white;
+}
+img {
+  width: 80%;
+  float: left;
+}
+
+.container .box .discord-logo {
+  width: 170%;
+  margin-left: -1.3pc;
+  margin-top: -1pc;
+}
+a {
+  text-decoration: none;
+  color: white;
+}
+
+.container button {
+  width: 5pc;
+  margin-top: 5pc;
+  position: absolute;
+}
+.container .title {
+  text-align: center;
+  margin: 30px auto;
+  font-weight: bold;
+  letter-spacing: 3px;
+}
+.container {
+  margin-top: 3.5pc;
+}
+.container .bungkus {
+  width: 40pc;
+  margin: auto;
+}
+.container .box {
+  border: 2px solid rgb(61, 26, 26);
+  background: rgb(61, 26, 26);
+  width: 40pc;
+  height: 4pc;
+  margin: auto;
+  margin-top: 2pc;
+  box-shadow: 3px 10px rgb(25, 29, 43);
+  transition: 0.5s;
+  border-radius: 30px;
+}
+.container .box:hover {
+  border: 2px solid #be7a21;
+  background: #be7a21;
+  box-shadow: 3px 10px 15px rgb(61, 26, 26);
+  color: black;
+}
+.container .box .img {
+  width: 60px;
+  height: 60px;
+
+  margin-top: 0.5pc;
+  margin-left: 0.5pc;
+  transition: 0.3s;
+}
+.container .box .img:hover {
+  transform: rotate(110deg);
+}
+.container .box .textr {
+  width: 40pc;
+  height: 4.5pc;
+
+  margin-left: 0pc;
+  margin-top: -4pc;
+  text-align: center;
+  font-size: 1rem;
+  letter-spacing: 5px;
+  text-transform: uppercase;
+  font-weight: bolder;
+  transition: 0.5s;
+}
+.container .box .textr p {
+  margin-left: -4pc;
+}
+.container .box .textr .dc {
+  margin-left: -5.5pc;
+}
+.container .box .textr:hover {
+  letter-spacing: 20px;
+}
+.container .bungkus .box .textr .git-hub:hover {
+  color: rgb(0, 204, 255);
+}
+.container .bungkus .box .textr .ig:hover {
+  color: rgb(0, 204, 255);
+}
+.container .bungkus .box .textr .tele:hover {
+  color: rgb(0, 204, 255);
+}
+.container .bungkus .box .textr .wa:hover {
+  color: rgb(0, 204, 255);
+}
+.container .bungkus .box .textr .dc:hover {
+  color: rgb(0, 204, 255);
+}
+footer {
+  text-align: center;
+  margin-top: 6pc;
+}
+@media only screen and (max-width: 600px) {
+  img {
+    width: 60%;
+  }
+  .container .bungkus {
+    margin-left: -8pc;
+  }
+  .container .box {
+    width: 20pc;
+    height: 3pc;
+  }
+  .container .box .textr {
+    width: 10pc;
+    height: 4pc;
+    margin-left: 9pc;
+    margin-top: -4.5pc;
+  }
+
+  .container .box .textr .dc {
+    margin-left: -3.7pc;
+  }
+  .container .box .discord-logo {
+    width: 120%;
+    margin-top: -10px;
+  }
+  footer {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+}
