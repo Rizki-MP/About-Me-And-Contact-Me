@@ -1,4 +1,6 @@
-# Contact-me
-web kontak saya
+# ...
+Contact Me And About Me
 
-web ini hasil belajar di channel wpu tentang css dasar sampai css 3...dan web ini sebenarnya dari github orang lain ("") dan saya hanya memodifikasi sedikit
+repo to know about me and how to contact me
+
+repo untuk mengetahui tentang saya dan cara menghubungi saya
